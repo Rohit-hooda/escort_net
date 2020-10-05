@@ -250,85 +250,6 @@ a.active {
     color: #0000DD;
 }
 
-
-/* ======= Waypoints ======= */
-
-.wp1,
-.wp2,
-.wp3,
-.wp3-1,
-.wp3-2,
-.wp3-3,
-.wp3-4,
-.wp3-5,
-.wp4,
-.wp5,
-.wp6 {
-    visibility: hidden;
-}
-
-.bounceIn,
-.bounceInLeft,
-.bounceInRight,
-.bounceInDown,
-.fadeIn,
-.fadeInUp,
-.fadeInUpDelay,
-.fadeInDown,
-.fadeInLeft,
-.fadeInRight,
-.slideInUp,
-.slideInDown,
-.slideInLeft,
-.slideInRight,
-.zoomIn,
-.swing,
-.pulse,
-.bounce,
-.progress1-delay,
-.progress2-delay,
-.progress3-delay,
-.progress4-delay,
-.progress5-delay {
-    visibility: visible;
-}
-
-.delay-01s {
-    animation-delay: 0.1s;
-    -webkit-animation-delay: 0.1s;
-}
-
-.delay-02s {
-    animation-delay: 0.2s;
-    -webkit-animation-delay: 0.2s;
-}
-
-.delay-025s {
-    animation-delay: 0.25s;
-    -webkit-animation-delay: 0.25s;
-}
-
-.delay-05s {
-    animation-delay: 0.5s;
-    -webkit-animation-delay: 0.5s;
-}
-
-.delay-1s {
-    animation-delay: 1s;
-    -webkit-animation-delay: 1s;
-}
-
-.delay-4s {
-    animation-delay: 4s;
-    -webkit-animation-delay: 4s;
-}
-
-.delay-4-5s {
-    animation-delay: 4.5s;
-    -webkit-animation-delay: 4.5s;
-}
-
-
 /* ======= NAV BAR ======= */
 
 .light {
@@ -616,126 +537,19 @@ a.fa.fa-angle-down:focus {
     border-radius: 50%;
 }
 
-#about #tl-dr {
-    background: #f0f0f0;
-    color: #555;
-    text-align: center;
-    margin: 0px auto;
-    padding: 20px;
-    height: 200px;
-    width: 50%;
-    max-width: 650px;
-}
-
-#about #tl-dr h3 {
-    font-weight: 300;
-    font-size: 22px;
-    margin-bottom: 40px;
-    color: #111;
-}
-
-#about #tl-dr h4 {
-    font-weight: 300;
-    font-size: 17px;
-    margin-bottom: 20px;
-    text-transform: capitalize;
-}
-
-#about #tl-dr h5 {
-    font-weight: 300;
-    font-size: 14px;
-    font-family: 'Roboto Slab', sans-serif;
-    text-transform: capitalize;
-    letter-spacing: 0.5px;
-}
-
-.tldr-proc {
-    width: 30%;
-    display: inline-block;
-    vertical-align: top;
-}
-
-.tldr-icon {
-    width: 50px;
-    height: 50px;
-    line-height: 50px;
-    font-size: 36px;
-    margin: 0 auto 10px;
-}
-
-#tldr-keyboard {
-    font-size: 50px;
-}
-
-@media screen and (max-width: 1100px) {
-    #about #tl-dr {
-        width: 70%;
-    }
-}
-
-@media screen and (max-width: 990px) {
-    #about #tl-dr h3 {
-        font-size: 18px;
-    }
-}
-
-@media screen and (max-width: 770px) {
-    #about #tl-dr h3 {
-        font-size: 16px;
-    }
-    #about #tl-dr h4 {
-        font-size: 14px;
-    }
-    #about #tl-dr h5 {
-        font-size: 12px;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    #about #tl-dr {
-        padding: 30px 0;
-    }
-    #about #tl-dr h5 {
-        font-size: 11px;
-    }
-}
 
 @media screen and (max-width: 500px) {
     #about {
         padding: 60px 10px;
     }
-
 }
 
 @media screen and (max-width: 480px) {
     #about img#prof-pic {
         width: 150px;
     }
-    #about #tl-dr {
-        width: 90%;
-    }
     h2 {
         font-size: 22px;
-    }
-    .tlder-proc {
-        width: 32%;
-    }
-}
-
-@media screen and (max-width: 360px) {
-    #about #tl-dr {
-        padding: 20px 0;
-        height: 180px;
-        width: 95%;
-    }
-    #about #tl-dr h4 {
-        margin-bottom: 5px;
-    }
-    .tldr-icon {
-        /*font-size: 24px;*/
-    }
-    #tldr-keyboard {
-        font-size: 34px;
     }
 }
 
@@ -810,7 +624,7 @@ a.fa.fa-angle-down:focus {
 #contact {
     padding-top: 50px;
     padding-bottom: 70px;
-    background-color: #F0F0F0;
+    background-color: #ffff;
 }
 
 .email-icon {
@@ -855,5 +669,3 @@ a.fa.fa-angle-down:focus {
         padding: 15px 10px 50px;
     }
 }
-
-

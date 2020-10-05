@@ -8,9 +8,10 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/animate.css">
-    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <!-- <link rel="stylesheet" type="text/css" href="css/normalize.css"> -->
     <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <link rel="stylesheet" type="text/css" href='https://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,900,900italic,700italic'>
+    <link rel="stylesheet" type="text/css"
+        href='https://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,900,900italic,700italic'>
     <link rel="stylesheet" type="text/css" href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,700,300,100'>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 </head>
@@ -22,7 +23,8 @@
         <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
             <div class="container">
                 <div class="navbar-header page-scroll">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse"
+                        data-target=".navbar-main-collapse">
                         <i class="fa fa-2x fa-bars"></i>
                     </button>
                     <a class="navbar-brand page-scroll" href="#">
@@ -33,43 +35,43 @@
                         <li class="hidden">
                             <a class="page-scroll" href="#page-top"></a>
                         </li>
-                        <li><a class="page-scroll" href="#about">About</a></li>
-                        <li><a class="page-scroll" href="#services">Service</a></li>
-                        <li><a class="page-scroll" href="#contact">Contact</a></li>
+                        <li><a class="page-scroll" href="#services">Use It</a></li>
+                        <li><a class="page-scroll" href="#contact">Blog</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
-        
+
         <!-- Section: Introduction -->
         <section id="intro" class="intro text-center">
             <div class="overlay">
                 <div class="intro-content">
-                    <h1 class="animated fadeInDown delay-05s">Hi, I'm Escort</strong>
+                    <h1 class="animated fadeInDown delay-05s">This is Escort</strong>
                     </h1>
-                    <p class="subtitle animated fadeInUp delay-05s">An Encryptor Tool</p>
+                    <p class="subtitle animated fadeInUp delay-05s">An encryptor tool which lets you encrypt messages.
+                    </p>
                     <a class="fa fa-angle-down page-scroll" href="#about"></a>
                 </div>
             </div>
         </section>
-        
+
         <!-- Section: About -->
         <section id="about" class="text-center">
             <div class="overlay">
                 <div class="container">
-                    <div class="row">
+                    <div~ class="row">
                         <div class="col-md-8 col-md-offset-2 wp1">
-                            <h2>Quote</h2>
-                            <p>
-                                A COURT ORDER IS AS INEFFECTIVE AT
-                                    ACCESSING ENCRYPTED DATA
-                                    AS A NUCLEAR WEAPON.
-                                    -JACOB RIGS
-                            </p>
+                            <h2>A court order is as ineffective at
+                                <br />
+                                accessing encrypted data
+                                <br />
+                                as a nuclear weapon.
+                            </h2>
+                            <h4>-Jacob Rigs</h4>
                         </div>
-                    </div>
+                </div>
         </section>
-        
+
         <!-- Section: Services (Passions) -->
         <section id="services" class="text-center">
             <div class="container">
@@ -79,35 +81,43 @@
                         <div class="spacer-10"></div>
                         <div class="col-md-4 wp2">
                             <div class="icon"><i class="fa fa-laptop"></i></div>
-                            <h3>Key Generation</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, vero esse, laudantium est eveniet officiis ab aliquid adipisci quam facilis fuga? Aut odio eligendi nesciunt alias eum tempora repellendus fugiat.
+                            <a href="generatekey.html">
+                                <h3>Key Generation</h3>
+                            </a>
+                            <p>Generate your own set of public & private keys <br> so that you can encrypt & decrypt the<br>
+                                message that you send or recieve.
                             </p>
                         </div>
                         <div class="col-md-4 wp2 delay-025s">
                             <div class="icon"><i class="fa fa-code"></i></div>
-                            <h3>Encryption</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum beatae accusamus possimus repudiandae qui itaque, magnam incidunt! Libero, quis vel nobis blanditiis natus exercitationem perspiciatis culpa sequi, sed, adipisci cum.
+                            <a href="encrypt.html">
+                                <h3>Encryption</h3>
+                            </a>
+                            <p>Encrypt your message with your friend's <br>public key you want to send <br>the message to.</p>
                         </div>
                         <div class="col-md-4 wp2 delay-05s">
                             <div class="icon"><i class="fa fa-lightbulb-o"></i></div>
-                            <h3>Decryption</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam dolorem officiis, saepe nobis eos tempore, quae soluta dolor dolorum, reprehenderit odit vero. Dicta, dolorum omnis id et veritatis delectus temporibus.</p>
+                            <a href="decrypt.html">
+                                <h3>Decryption</h3>
+                            </a>
+                            <p>Decrypt the recieved messages from <br>your friends with the private key <br>that you have.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        
+
         <!-- Section: Contact -->
         <section id="contact">
             <div class="container">
                 <div class="row">
                     <div class="col-md-10 col-md-offset-1 text-center">
                         <div class="email-icon"><i class="fa fa-paper-plane-o wp6"></i></div>
-                        <h2>Get In Touch!</h2>
-                        <p>Whether you have an idea for a project or just want to chat, feel free to shoot me an email!</p>
+                        <h2>Blog Post</h2>
+                        <p>WANT TO CREATE YOUR OWN ENCRYPTION TOOL? <br>
+                            CHECK OUT MY OSSUM BLOG POST.</p>
                         <p style="margin-top:40px;">
-                            <a id="email-button" href="#" target="_blank">Say Hello</a>
+                            <a id="email-button" href="https://dev.to/rohithooda/create-your-own-version-of-protonmail-fdi" target="_blank">Read Blog</a>
                         </p>
                     </div>
                 </div>
