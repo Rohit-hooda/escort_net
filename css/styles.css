@@ -494,7 +494,7 @@ a.active {
 /* ======= INTRODUCTION ======= */
 
 #intro {
-    background: url(../img/mountain-dusk.jpg);
+    background: url(../img/encrypt.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -704,15 +704,7 @@ a.fa.fa-angle-down:focus {
     #about {
         padding: 60px 10px;
     }
-    #about #tl-dr h5 {
-        /*font-size: 10px;*/
-    }
-    .tldr-icon {
-        font-size: 30px;
-    }
-    #tldr-keyboard {
-        font-size: 40px;
-    }
+
 }
 
 @media screen and (max-width: 480px) {
@@ -775,14 +767,14 @@ a.fa.fa-angle-down:focus {
     height: 175px;
     line-height: 175px;
     max-width: 100%;
-    background: #00009C;
+    background: #000000;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -o-border-radius: 50%;
     border-radius: 50%;
     display;
     block;
-    color: #FFF;
+    color: #36ff8d;
     font-size: 55px;
     text-align: center;
     vertical-align: middle;
